@@ -1,0 +1,33 @@
+.whoweare-section {
+  height: 550px;
+
+  &__img {
+    position: relative;
+
+    img {
+      position: absolute;
+    }
+
+    &_person {
+      z-index: 10;
+      top: -55px;
+      left: 110px;
+    }
+
+    &_md-purple {
+      z-index: 9;
+      bottom: 0;
+      right: 190px;
+    }
+
+    &_md-beige {
+      z-index: 8;
+      top: 30px;
+      right: 60px;
+    }
+
+    &_bg-green{
+      z-index: 7;
+    }
+  }
+}
