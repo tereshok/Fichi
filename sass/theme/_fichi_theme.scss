@@ -1,0 +1,23 @@
+.container-xl {
+  @include make-container(xl);
+  max-width: 1170px;
+  @include media-breakpoint-up(xl){
+    max-width: 1200px;
+  }
+}
+
+.container-xxl {
+  @include make-container(xxl);
+  max-width: 1720px;
+  @include media-breakpoint-up(xxl){
+    max-width: 1750px;
+  }
+}
+
+.container-xxxl {
+  @include make-container(xxxl);
+  max-width:1860px;
+  @include media-breakpoint-up(xxxl){
+    max-width: 1890px;
+  }
+}
