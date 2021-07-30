@@ -26,6 +26,10 @@ a:hover {
   text-decoration: none;
 }
 
+button {
+  border: none;
+}
+
 body {
   background-color: $mainColor_white;
   font-family: 'Chivo', sans-serif;

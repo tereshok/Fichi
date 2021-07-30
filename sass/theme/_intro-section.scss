@@ -1,0 +1,39 @@
+.intro-section {
+  height: 840px;
+
+  &__text-block{
+    max-width: 370px;
+
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+  &__button_purple,
+  &__button_green {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  &__button_purple {
+    background-color: $mainColor_purple;
+    color: $mainColor_white;
+  }
+
+  &__button_green {
+    background-color: $mainColor_green;
+    color: $mainColor_black;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__main-image {
+    position: absolute;
+    top: -101px;
+    right: -160px;
+  }
+}
