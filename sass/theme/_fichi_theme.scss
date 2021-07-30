@@ -22,18 +22,23 @@
   }
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 body {
   background-color: $mainColor_white;
+  font-family: 'Chivo', sans-serif;
 }
 
 .section_title {
   color: $mainColor_black;
   font-family: 'Asul', sans-serif;
   font-size: 48px;
+  font-weight: 700;
 }
 
 .section_paragraph {
   color: $mainColor_grey;
-  font-family: 'Chivo', sans-serif;
   font-size: 16px;
 }
