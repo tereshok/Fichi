@@ -1,0 +1,30 @@
+.our-mission-section {
+  .row {
+    justify-content: space-around;
+  }
+
+  &__text-block {
+    text-align: center;
+
+  }
+
+  &__pretitle {
+    color: $mainColor_purple;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__title_red {
+    color: $mainColor_red;
+  }
+
+  &__card {
+    max-width: 305px;
+
+    &-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: $mainColor_purple;
+    }
+  }
+}
