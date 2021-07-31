@@ -1,0 +1,47 @@
+.featured-work-section {
+  
+  .row {
+    height: 720px;
+    background-color: $mainColor_beige;
+    border-radius: 20px;
+  }
+
+  &__text-block {
+    max-width: 370px;
+  }
+
+  &__pretitle {
+    color: $mainColor_purple;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__button_purple {
+    width: 160px;
+    height: 50px;
+    background-color: $mainColor_purple;
+    color: $mainColor_white;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  &__image-block {
+    position: relative;
+
+    img {
+      position: absolute;
+    }
+
+    &_img-order {
+      
+    }
+
+    &_img-charts {
+      
+    }
+
+    &_img-weather {
+      
+    }
+  }
+}
