@@ -21,11 +21,11 @@
     
   })
 
-  // var swiper = new Swiper(".mySwiper", {
-  //   slidesPerView: 3,
-  //   spaceBetween: 60,
-  //   centeredSlides: true,
-  //   loop: true,
-  //   slideToClickedSlide: true,
-  // });
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 60,
+    centeredSlides: true,
+    loop: true,
+    slideToClickedSlide: true,
+  });
  
