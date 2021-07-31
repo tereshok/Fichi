@@ -2,8 +2,9 @@
   height: 400px;
 
 
-  .succsess-massage {
+  .success-massage {
     display: none;
+    padding: 10px 0 0 0;
 
     &.active {
       display: block;
@@ -17,6 +18,18 @@
   &__block {
     max-width: 570px;
     text-align: center;
+
+    h2 {
+      padding: 19px 0 27px 0;
+      margin: 0 0 0 -11px;
+    }
+
+    p {
+      padding: 0 0 30px 0;
+      margin: 0px 0 0 -8px;
+      letter-spacing: -0.15px;
+
+    }
   }
 
   &__title_red {
@@ -42,14 +55,19 @@
     }
 
     &_button {
-      width: 170px;
+      width: 160px;
       height: 50px;
       color: $mainColor_white;
       background-color: $mainColor_purple;
-      border-radius: 12px;
+      border-radius: 21px;
       position: absolute;
-      right: 5px;
       top: 5px;
+      right: 2px;
+
+      &:hover {
+        color: $mainColor_black;
+        background-color: $mainColor_grey;
+      }
     }
   }
 }

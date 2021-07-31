@@ -7080,9 +7080,9 @@ $('.happy-client-section__image-button-item').on('click', function () {
 });
 $('.newsletter-section__form-block').on('submit', function (event) {
   event.preventDefault();
-  $('.succsess-massage').addClass('active');
+  $('.success-massage').addClass('active');
   setTimeout(function () {
-    $('.succsess-massage').removeClass('active');
+    $('.success-massage').removeClass('active');
     $('.newsletter-section__form-block_input').val('');
   }, 4000);
 });
