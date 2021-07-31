@@ -11,15 +11,15 @@
   })
   
   
-  // $('.newsletter-section__form-block').on('submit', function(event){
-  //   event.preventDefault();
-  //   $('.succsess-massage').addClass('active')
-  //   setTimeout(function(){
-  //     $('.succsess-massage').removeClass('active');
-  //     $('.newsletter-section__form-block_input').val('');
-  //   }, 4000);
+  $('.newsletter-section__form-block').on('submit', function(event){
+    event.preventDefault();
+    $('.succsess-massage').addClass('active')
+    setTimeout(function(){
+      $('.succsess-massage').removeClass('active');
+      $('.newsletter-section__form-block_input').val('');
+    }, 4000);
     
-  // })
+  })
 
   // var swiper = new Swiper(".mySwiper", {
   //   slidesPerView: 3,
