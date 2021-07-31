@@ -1,0 +1,30 @@
+.footer-section {
+  margin: 0 0 30px 0;
+
+  .container-xxxl .row {
+    height: 500px;
+    background-color: $mainColor_beige;
+    border-radius: 20px;
+
+    .container-xl .row {
+      padding: 150px 0 0 0;
+    }
+  }
+
+  &_nav-block {
+    display: flex;
+    flex-direction: column;
+
+    .nav {
+      .menu__item-footer a {
+        font-size: 16px;
+        font-weight: 700;
+        color: $mainColor_purple !important;
+  
+        &:hover {
+          color: $mainColor_grey !important;
+        }
+      }
+    }
+  }
+}
