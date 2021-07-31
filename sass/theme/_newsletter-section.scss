@@ -1,0 +1,46 @@
+.newsletter-section {
+  height: 400px;
+  
+  .row {
+    justify-content: center;
+  }
+
+  &__block {
+    max-width: 570px;
+    text-align: center;
+  }
+
+  &__title_red {
+    color: $mainColor_red;
+  }
+
+  &__text {
+    color: $mainColor_grey;
+    font-size: 18px;
+  }
+
+  &__form-block {
+    position: relative;
+
+    &_input {
+      width: 570px;
+      height: 60px;
+      background: #f7f7f7;
+      color: $mainColor_grey;
+      border-radius: 12px;
+      border: none;
+      padding: 0 0 0 30px;
+    }
+
+    &_button {
+      width: 170px;
+      height: 50px;
+      color: $mainColor_white;
+      background-color: $mainColor_purple;
+      border-radius: 12px;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+    }
+  }
+}
