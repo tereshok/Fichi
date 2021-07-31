@@ -1,6 +1,13 @@
 .amazing-services-section {
+  height: 945px;
+  margin: -130px 0 0 0;
+
   .row {
     justify-content: space-between;
+  }
+
+  &__main-img {
+    margin: 0 0 0 -74px;
   }
 
   &__info-block {
