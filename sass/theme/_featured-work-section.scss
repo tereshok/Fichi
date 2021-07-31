@@ -1,13 +1,26 @@
 .featured-work-section {
-  
-  .row {
+    max-width: 1860px;
     height: 720px;
+    margin: 0 auto;
     background-color: $mainColor_beige;
-    border-radius: 20px;
-  }
+    border-radius: 40px;
+    overflow: hidden;
+  
 
   &__text-block {
     max-width: 370px;
+    padding: 134px 0 0 0;
+    margin: 0 0 0 -15px;
+
+    h2 {
+      padding: 12px 0 17px;
+    }
+
+    p {
+      line-height: 22px;
+      letter-spacing: -0.11px;
+      padding: 0px 0 30px 0;
+    }
   }
 
   &__pretitle {
@@ -23,6 +36,7 @@
     color: $mainColor_white;
     font-size: 16px;
     border-radius: 20px;
+    margin: 0 0 0 -6px;
   }
 
   &__image-block {
@@ -33,15 +47,18 @@
     }
 
     &_img-order {
-      
+      top: 3px;
+      left: 36px;
     }
 
     &_img-charts {
-      
+      top: -156px;
+      right: -413px;
     }
 
     &_img-weather {
-      
+      top: 241px;
+      right: -414px;
     }
   }
 }
