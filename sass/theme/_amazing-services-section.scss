@@ -1,0 +1,33 @@
+.amazing-services-section {
+  .row {
+    justify-content: space-between;
+  }
+
+  &__info-block {
+
+  }
+  
+  &__info-text {
+    max-width: 250px;
+  }
+
+  &__info-title {
+    color: $mainColor_purple;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__text-block {
+    max-width: 450px;
+  }
+
+  &__pretitle {
+    color: $mainColor_purple;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__title_red {
+    color: $mainColor_red;
+  }
+}
