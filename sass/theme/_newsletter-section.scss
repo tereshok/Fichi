@@ -1,5 +1,14 @@
 .newsletter-section {
   height: 400px;
+
+
+  .succsess-massage {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
   
   .row {
     justify-content: center;

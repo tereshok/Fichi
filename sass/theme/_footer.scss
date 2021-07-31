@@ -11,7 +11,7 @@
     }
   }
 
-  &_nav-block {
+  &__nav-block {
     display: flex;
     flex-direction: column;
 
@@ -19,10 +19,10 @@
       .menu__item-footer a {
         font-size: 16px;
         font-weight: 700;
-        color: $mainColor_purple !important;
+        color: $mainColor_purple;
   
         &:hover {
-          color: $mainColor_grey !important;
+          color: $mainColor_grey;
         }
       }
     }

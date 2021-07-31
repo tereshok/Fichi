@@ -5,6 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/fichi.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <title>Fichi</title>
 </head>
 <body>
@@ -94,23 +103,28 @@
           <span class="our-mission-section__pretitle">Our Mission</span>
           <h2 class="section_title">We want to contribute to the <span class="our-mission-section__title_red">creation</span> of valua</h2>
         </div>
-        <div class="col-4 our-mission-section__card">
-          <img src="images/Money.png" alt="Accountancy">
-          <h6 class="our-mission-section__card-title">Accountancy</h6>
-          <p class="section_paragraph">Vestibulum imperdiet nibh vel magna lacinia ultrices. Sed id interdum urna.</p>
-          <button>Get Start</button>
-        </div>
-        <div class="col-4 our-mission-section__card">
-          <img src="images/Support.png" alt="Corporate Finance">
-          <h6 class="our-mission-section__card-title">Corporate Finance</h6>
-          <p class="section_paragraph">Nullam lacinia faucibus risus, a euismod lorem tincidunt id.</p>
-          <button>Get Start</button>
-        </div>
-        <div class="col-4 our-mission-section__card">
-          <img src="images/NoMessage.png" alt="Tax & Legal">
-          <h6 class="our-mission-section__card-title">Tax & Legal</h6>
-          <p class="section_paragraph">Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
-          <button>Get Start</button>
+        <div class="swiper-container mySwiper">
+
+          <div class="swiper-wrapper">
+            <div class="our-mission-section__card swiper-slide">
+              <img src="images/Money.png" alt="Accountancy">
+              <h6 class="our-mission-section__card-title">Accountancy</h6>
+              <p class="section_paragraph">Vestibulum imperdiet nibh vel magna lacinia ultrices. Sed id interdum urna.</p>
+              <button>Get Start</button>
+            </div>
+            <div class="our-mission-section__card swiper-slide">
+              <img src="images/Support.png" alt="Corporate Finance">
+              <h6 class="our-mission-section__card-title">Corporate Finance</h6>
+              <p class="section_paragraph">Nullam lacinia faucibus risus, a euismod lorem tincidunt id.</p>
+              <button>Get Start</button>
+            </div>
+            <div class="our-mission-section__card swiper-slide">
+              <img src="images/NoMessage.png" alt="Tax & Legal">
+              <h6 class="our-mission-section__card-title">Tax & Legal</h6>
+              <p class="section_paragraph">Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+              <button>Get Start</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -185,12 +199,32 @@
   <section class="happy-client-section">
     <div class="container-xl">
       <div class="row">
-       <div class="happy-client-section__text-block">
-         <h5 class="happy-client-section__title">“ Hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tate, tortor nec commodo ultricies vitae viverra urna. ”</h5>
-         <div class="happy-client-section__subtitle">
-           <h6>Tony Nguyen <span>- Ceo Moontheme</span></h6>
+        <div class="img-butt">
+          <img src="images/your image her2e.png" alt="" class="img-butt-item active" data-img="people1">
+          <img src="images/your image here.png" alt="" class="img-butt-item" data-img="people2">
+          <img src="images/y3our image here.png" alt="" class="img-butt-item" data-img="people3">
+        </div>
+        <div class="content">
+          <div class="happy-client-section__text-block active" data-content="people1">
+            <h5 class="happy-client-section__title">“ Hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tate, tortor nec commodo ultricies vitae viverra urna. ”</h5>
+            <div class="happy-client-section__subtitle">
+              <h6>Tony Nguyen <span>- Ceo Moontheme</span></h6>
+            </div>
+          </div>
+          <div class="happy-client-section__text-block" data-content="people2">
+           <h5 class="happy-client-section__title">“ Hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tate, tortor nec commodo ultricies vitae viverra urna. ”</h5>
+           <div class="happy-client-section__subtitle">
+             <h6>Tony Nguyen <span>- Ceo Moontheme</span></h6>
+           </div>
          </div>
-       </div>
+         <div class="happy-client-section__text-block" data-content="people3">
+           <h5 class="happy-client-section__title">“ Hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tate, tortor nec commodo ultricies vitae viverra urna. ”</h5>
+           <div class="happy-client-section__subtitle">
+             <h6>Tony Nguyen <span>- Ceo Moontheme</span></h6>
+           </div>
+         </div>
+        </div>
+      
       </div>
     </div>
   </section>
@@ -202,9 +236,10 @@
           <p class="newsletter-section__text">Join the newsletter and get 2 months free with full access.</p>
           <div>
             <form action="" method="post" class="newsletter-section__form-block">
-              <input type="email" name="" id="" placeholder="Email address" class="newsletter-section__form-block_input">
+              <input type="email" name="subscribe-form" required placeholder="Email address" class="newsletter-section__form-block_input">
               <button type="submit" class="newsletter-section__form-block_button">Subscribe</button>
             </form>
+            <p class="succsess-massage">1111</p>
           </div>
         </div>
       </div>
@@ -255,5 +290,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fichi.js"></script>
 </body>
 </html>

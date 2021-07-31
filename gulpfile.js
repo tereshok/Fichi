@@ -232,14 +232,14 @@ gulp.task( 'copy-assets', function( done ) {
 	////////////////// End Bootstrap 4 Assets /////////////////////////
 
 	// Copy all Font Awesome Fonts
-	gulp
-		.src( paths.node + '/font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}' )
-		.pipe( gulp.dest( paths.fonts ) );
+	// gulp
+	// 	.src( paths.node + '/@fortawesome/fontawesome-free/webfonts/**/*.{ttf,woff,woff2,eot,svg}' )
+	// 	.pipe( gulp.dest( paths.fonts ) );
 
 	// Copy all Font Awesome SCSS files
-	gulp
-		.src( paths.node + '/font-awesome/scss/*.scss' )
-		.pipe( gulp.dest( paths.dev + '/sass/fontawesome' )	);
+	// gulp
+	// 	.src( paths.node + '/@fortawesome/fontawesome-free/scss/*.scss' )
+	// 	.pipe( gulp.dest( paths.dev + '/sass/fontawesome' )	);
 
 	// Copy all Understrap SCSS files
 	/*gulp

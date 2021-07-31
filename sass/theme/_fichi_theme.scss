@@ -2,6 +2,7 @@
   @include make-container(xl);
   max-width: 1140px;
   @include media-breakpoint-up(xl){
+    padding: 0 15px;
     max-width: 1170px;
   }
 }
