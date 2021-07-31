@@ -1,9 +1,66 @@
 .happy-client-section {
   height: 720px;
+  position: relative;
+
+  &__image-button-item {
+    position: absolute;
+  }
+
+  &__image-button {
+    .img-item-1 {
+      top: 1%;
+      left: 35%;
+    }
+
+    .img-item-2 {
+      top: 27.5%;
+      left: 19.5%;
+    }
+
+    .img-item-3 {
+      top: 41.5%;
+      left: 33.4%;
+    }
+
+    .img-item-4 {
+      bottom: 29%;
+      left: 38.8%;
+    }
+
+    .img-item-5 {
+      top: 6.1%;
+      right: 29.7%;
+    }
+
+    .img-item-6 {
+      top: 15.1%;
+      right: 19.3%;
+    }
+
+    .img-item-7 {
+      bottom: 48.5%;
+      right: 35%;
+    }
+
+    .img-item-8 {
+      bottom: 37%;
+      right: 24.5%;
+    }
+  }
+
+  &__content {
+    padding: 128px 0 0 0;
+    margin: 0 auto;
+  }
 
   &__text-block {
     max-width: 505px;
     text-align: center;
+    display: none;
+
+    &.active {
+      display: block;
+    }
   }
 
   &__title {
@@ -11,9 +68,13 @@
     color: $mainColor_purple;
     font-size: 30px;
     font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -0.3px;
   }
 
   &__subtitle {
+    padding: 20px 0 0 0;
+
     h6 {
       font-size: 16px;
       font-weight: 700;
@@ -24,5 +85,12 @@
         font-weight: 400;
       }
     }
+  }
+
+  &__bottom-line {
+    position: absolute;
+    z-index: -1;
+    bottom: 10.3%;
+    left: 48.3%;
   }
 }
