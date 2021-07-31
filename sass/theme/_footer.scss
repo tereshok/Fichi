@@ -1,30 +1,93 @@
-.footer-section {
+footer {
   margin: 0 0 30px 0;
+}
 
-  .container-xxxl .row {
-    height: 500px;
-    background-color: $mainColor_beige;
-    border-radius: 20px;
+.footer-section {
+  height: 500px;
+  background-color: $mainColor_beige;
+  border-radius: 50px;
+  
+  &__content {
+    padding: 158px 0 0 0;
 
-    .container-xl .row {
-      padding: 150px 0 0 0;
+  } 
+  
+  &__copyright {
+    font-size: 14px;
+    padding: 20px 0 0 0;
+    letter-spacing: -0.1px;
+  }
+
+  &__logo-block {
+    margin: 0 0 0 -30px;
+
+    img {
+      padding: 5px 0 0 0;
     }
   }
 
   &__nav-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 7px;
+    margin: -1px 0 0 0;
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 0 0 25px 0;
+    }
 
     .nav {
-      .menu__item-footer a {
-        font-size: 16px;
-        font-weight: 700;
-        color: $mainColor_purple;
-  
-        &:hover {
-          color: $mainColor_grey;
+      margin: 0 0 0 25px;
+      padding: 0 0 25px 0;
+
+      .menu__item-footer {
+        padding: 0 0 12px 0;
+
+        a {
+          font-size: 16px;
+          font-weight: 700;
+          color: $mainColor_purple;
+    
+          &:hover {
+            color: $mainColor_grey;
+          }
         }
       }
+    }
+  }
+
+  &__contact-item {
+    margin: 0 0 0 30px;
+
+    &_title {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 0 0 22px 0;
+    }
+
+    &_mail {
+      color: $mainColor_purple;
+      font-size: 30px;
+      letter-spacing: -0.25px;
+      display: block;
+      padding: 0 0 15px;
+    }
+
+    &_text {
+      font-size: 16px;
+      margin: 0;
+      letter-spacing: -0.1px;
+    }
+
+    &_phone {
+      color: $mainColor_black;
+      display: block;
+      padding: 11px 0 0 0;
+      letter-spacing: -0.1px
     }
   }
 }

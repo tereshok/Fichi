@@ -129,7 +129,7 @@
       </div>
     </div>
   </section>
-  <section class="featured-work-section">
+  <section class="featured-work-section container-large">
     <div class="container">
       <div class="row">
         <div class="featured-work-section__text-block col-4">
@@ -276,16 +276,15 @@
       </div>
     </div>
   </section>
-  <footer class="footer-section">
-    <div class="container-xxxl">
-      <div class="row">
+  <footer>
+    <div class="footer-section container-large">
         <div class="container">
-          <div class="row">
-            <div class="col-3">
+          <div class="row footer-section__content">
+            <div class="col-3 footer-section__logo-block">
               <a href="/">
                 <img src="images/logo-big.png" alt="Fichi">
               </a>
-              <p>©Copyright 2020. Made by moontheme</p>
+              <p class="footer-section__copyright">©Copyright 2020. Made by moontheme</p>
             </div>
             <div class="col-3 footer-section__nav-block">
               <span>Link</span>
@@ -304,13 +303,13 @@
                 </li>
               </ul>
             </div>
-            <div class="col-6">
-              <div>
-                <span>Stay Connected</span>
-                <a href="">info@moontheme.net</a>
-                <p>004 Riley Street, Surry</p>
-                <p>Hills 2050 Sydney, Australia</p>
-                <p>+ 452 56 4332 4456</p>
+            <div class="col-6 footer-section__contact-block">
+              <div class="footer-section__contact-item">
+                <span class="footer-section__contact-item_title">Stay Connected</span>
+                <a href="mailto:info@moontheme.net" class="footer-section__contact-item_mail">info@moontheme.net</a>
+                <p class="footer-section__contact-item_text">004 Riley Street, Surry</p>
+                <p class="footer-section__contact-item_text">Hills 2050 Sydney, Australia</p>
+                <a href="tel:+ 452 56 4332 4456" class="footer-section__contact-item_phone">+ 452 56 4332 4456</a>
               </div>
               <div>
                 <i></i><i></i><i></i>
@@ -318,7 +317,6 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
   </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
