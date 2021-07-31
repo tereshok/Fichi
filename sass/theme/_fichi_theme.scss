@@ -1,26 +1,6 @@
-.container-xl {
-  @include make-container(xl);
-  max-width: 1140px;
-  @include media-breakpoint-up(xl){
-    padding: 0 15px;
-    max-width: 1170px;
-  }
-}
-
-.container-xxl {
-  @include make-container(xxl);
-  max-width: 1690px;
-  @include media-breakpoint-up(xxl){
-    max-width: 1720px;
-  }
-}
-
-.container-xxxl {
-  @include make-container(xxxl);
-  max-width:1830px;
-  @include media-breakpoint-up(xxxl){
-    max-width: 1860px;
-  }
+.container-large {
+  max-width: 1860px;
+  margin: 0 auto;
 }
 
 a:hover {

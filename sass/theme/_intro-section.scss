@@ -20,11 +20,22 @@
   &__button_purple {
     background-color: $mainColor_purple;
     color: $mainColor_white;
+    margin: 0 25px 0 0;
+
+    &:hover {
+      background-color: $mainColor_grey;
+      color: $mainColor_black;
+    }
   }
 
   &__button_green {
     background-color: $mainColor_green;
     color: $mainColor_black;
+
+    &:hover {
+      background-color: $mainColor_grey;
+      color: $mainColor_black;
+    }
   }
 
   &__content {

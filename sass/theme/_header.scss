@@ -2,21 +2,34 @@ header {
   padding: 35px 0 0 0;
 }
 
+.header__container {
+  padding: 0 70px;
+  align-items: center;
+}
+
 .header__button {
   font-size: 16px;
   width: 140px;
   height: 50px;
   border-radius: 20px;
   background-color: $mainColor_green;
-}
-
-.menu__item-header a {
-  font-size: 16px;
-  font-weight: 700;
-  color: $mainColor_black;
-  padding: 0 50px 0 0;
 
   &:hover {
-    color: $mainColor_grey;
+    background-color: $mainColor_grey;
+  }
+}
+
+.navbar-nav {
+  margin: 0 0 0 5px;
+  
+  .menu__item-header a {
+    font-size: 16px;
+    font-weight: 700;
+    color: $mainColor_black;
+    padding: 0 50px 0 0;
+  
+    &:hover {
+      color: $mainColor_grey;
+    }
   }
 }
