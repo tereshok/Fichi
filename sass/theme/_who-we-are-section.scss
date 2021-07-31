@@ -1,5 +1,33 @@
 .whoweare-section {
-  height: 550px;
+  height: 655px;
+  padding: 48px 0 0 0;
+
+  &__text-block {
+    padding: 0px 0 0 20px;
+
+    h2 {
+      padding: 10px 0 20px 0;
+    }
+
+    p {
+      line-height: 22px;
+      letter-spacing: -0.18px;
+    }
+  }
+
+  &__pretitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $mainColor_purple;
+  }
+
+  &__subtext {
+    font-size: 14px;
+    font-weight: 700;
+    color: $mainColor_grey;
+    text-transform: uppercase;
+  }
 
   &__img {
     position: relative;
@@ -10,24 +38,26 @@
 
     &_person {
       z-index: 10;
-      top: -55px;
-      left: 110px;
+      top: -57px;
+      left: 78px;
     }
 
     &_md-purple {
       z-index: 9;
-      bottom: 0;
+      bottom: 41px;
       right: 190px;
     }
 
     &_md-beige {
       z-index: 8;
-      top: 30px;
-      right: 60px;
+      top: 28px;
+      right: 75px;
     }
 
     &_bg-green{
       z-index: 7;
+      top: 0;
+      left: -14px;
     }
   }
 }
