@@ -1,0 +1,28 @@
+.happy-client-section {
+  height: 720px;
+
+  &__text-block {
+    max-width: 505px;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Asul', sans-serif;
+    color: $mainColor_purple;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &__subtitle {
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+
+      span {
+        color: $mainColor_grey;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+}
