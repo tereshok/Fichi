@@ -1,11 +1,17 @@
 .our-mission-section {
+  height: 715px;
+
   .row {
     justify-content: space-around;
   }
 
   &__text-block {
+    max-width: 665px;
     text-align: center;
 
+    h2 {
+      padding: 11px 0 100px 0;
+    }
   }
 
   &__pretitle {
@@ -19,7 +25,23 @@
   }
 
   &__card {
-    max-width: 305px;
+    max-width: 370px;
+    padding: 48px 22px;
+
+    &_button {
+      display: none;
+    }
+
+    .swiper-slide-active {
+      &_button {
+        display: block;
+      }
+    }
+
+    img {
+      margin: -43px 0 0 0;
+      padding: 0 0 41px 0; 
+    }
 
     &-title {
       font-size: 18px;

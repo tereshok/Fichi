@@ -23,7 +23,7 @@
 
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 60,
+    spaceBetween: 15,
     centeredSlides: true,
     loop: true,
     slideToClickedSlide: true,
