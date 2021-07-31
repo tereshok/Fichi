@@ -2,10 +2,20 @@
   height: 840px;
 
   &__text-block{
-    max-width: 370px;
+    margin: 0px 0 0px -15px;
+    padding: 170px 0 0 0;
 
     h1 {
       font-size: 60px;
+      letter-spacing: -0.45px;
+      line-height: 61px;
+    }
+
+    p {
+      font-size: 18px;
+      padding: 18px 0 37px 0;
+      letter-spacing: -0.15px;
+      line-height: 25px;
     }
   }
 
@@ -44,7 +54,8 @@
 
   &__main-image {
     position: absolute;
-    top: -101px;
-    right: -160px;
+    z-index: -1;
+    top: -110px;
+    right: -58px;
   }
 }
