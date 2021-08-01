@@ -1,9 +1,17 @@
 .intro-section {
   height: 920px;
 
+  @media (max-width: 768px) {
+    height: 680px;
+  }
+
   &__text-block{
     margin: 0px 0 0px -15px;
     padding: 170px 0 0 0;
+
+    @media (max-width: 768px) {
+      margin: auto 15px;
+    }
 
     h1 {
       font-size: 60px;
@@ -36,6 +44,11 @@
       background-color: $mainColor_grey;
       color: $mainColor_black;
     }
+
+    @media (max-width: 576px) {
+      display: block;
+      margin: 0 0 15px 0;
+    }
   }
 
   &__button_green {
@@ -57,5 +70,16 @@
     z-index: -1;
     top: -110px;
     right: -58px;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) { 
+    img {
+      display: none;
+    }
   }
 }

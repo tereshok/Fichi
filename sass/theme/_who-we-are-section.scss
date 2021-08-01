@@ -32,6 +32,10 @@
   &__img {
     position: relative;
 
+    @media (max-width: 768px) {
+      display: none;
+    }
+
     img {
       position: absolute;
     }
@@ -40,6 +44,11 @@
       z-index: 10;
       top: -57px;
       left: 78px;
+
+      @media (max-width: 992px) {
+        z-index: -1;
+        top: -350px;
+      }
     }
 
     &_md-purple {
@@ -58,6 +67,10 @@
       z-index: 7;
       top: 0;
       left: -14px;
+      @media (max-width: 992px) {
+        z-index: -2;
+        top: -350px;
+      }
     }
   }
 }

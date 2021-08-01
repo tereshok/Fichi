@@ -32,12 +32,6 @@
       display: none;
     }
 
-    .swiper-slide-active {
-      &_button {
-        display: block;
-      }
-    }
-
     img {
       margin: -43px 0 0 0;
       padding: 0 0 41px 0; 
@@ -47,6 +41,12 @@
       font-size: 18px;
       font-weight: 700;
       color: $mainColor_purple;
+    }
+  }
+
+  .swiper-slide-active {
+    .our-mission-section__card_button {
+      display: block;
     }
   }
 }

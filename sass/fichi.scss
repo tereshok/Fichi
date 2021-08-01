@@ -4,6 +4,10 @@
 
 // Optional files - If you don´t use the corresponding scripts/fonts comment em out
 @import "../fonts/google-fonts/fonts";  
+@import "../src/sass/fontawesome/brands.scss";
+@import "../src/sass/fontawesome/regular.scss";
+@import "../src/sass/fontawesome/solid.scss";
+@import "../src/sass/fontawesome/fontawesome.scss";
 
 
 @import "theme/fichi_theme";

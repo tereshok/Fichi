@@ -7089,6 +7089,7 @@ $('.newsletter-section__form-block').on('submit', function (event) {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 15,
+  setWrapperSize: true,
   centeredSlides: true,
   loop: true,
   slideToClickedSlide: true
