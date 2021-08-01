@@ -1,8 +1,12 @@
 .intro-section {
-  height: 920px;
+ height: 920px;
+
+  @media (max-width: 1200px) {
+    height: 800px;
+  }
 
   @media (max-width: 768px) {
-    height: 680px;
+    height: 650px;
   }
 
   &__text-block{
@@ -11,6 +15,10 @@
 
     @media (max-width: 768px) {
       margin: auto 15px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 100px 0 0 0;
     }
 
     h1 {
@@ -38,7 +46,7 @@
   &__button_purple {
     background-color: $mainColor_purple;
     color: $mainColor_white;
-    margin: 0 25px 0 0;
+    margin: 0 25px 0 3px;
 
     &:hover {
       background-color: $mainColor_grey;
@@ -74,12 +82,10 @@
     img {
       width: auto;
       height: 100%;
-    }
-  }
 
-  @media (max-width: 1200px) { 
-    img {
-      display: none;
+      @media (max-width: 1200px) { 
+        display: none;
+      }
     }
   }
 
@@ -102,6 +108,12 @@
       &:hover {
         color: $mainColor_purple;
       }
+    }
+
+    @media (max-width: 1200px) { 
+      font-size: 28px;
+      bottom: -19px;
+      left: 93%;
     }
   }
 }

@@ -7100,7 +7100,7 @@ var swiper = new Swiper(".mySwiper", {
       centerInsufficientSlides: true //loop: true,
 
     },
-    720: {
+    769: {
       slidesPerView: 3,
       spaceBetween: 15,
       setWrapperSize: true,

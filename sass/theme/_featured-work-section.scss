@@ -10,6 +10,11 @@
     padding: 134px 0 0 0;
     margin: 0 0 0 -15px;
 
+    @media (max-width: 768px) {
+      max-width: 100%;
+      margin: 0 0 0 15px;
+    }
+
     h2 {
       padding: 12px 0 17px;
     }
@@ -47,16 +52,33 @@
     &_img-order {
       top: 3px;
       left: 36px;
+
+      @media (max-width: 1200px) {
+        display: none;
+      }
     }
 
     &_img-charts {
       top: -156px;
       right: -413px;
+
+      @media (max-width: 1200px) {
+        top: -456px;
+        right: -498px;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
 
     &_img-weather {
       top: 241px;
       right: -414px;
+
+      @media (max-width: 1200px) {
+        display: none;
+      }
     }
   }
 }

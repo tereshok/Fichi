@@ -32,6 +32,7 @@
       height: 45px;
       width: 140px;
       border-radius: 20px;
+      margin: 22px 0 0 4px;
       background-color: $mainColor_green;
 
       &:hover {
@@ -40,25 +41,25 @@
     }
 
     &.item-accountancy {
-      padding: 84px 0 0 21px;
+      padding: 84px 0 0 23px;
 
       img {
         margin: -41px 0 0 0;
-        padding: 0 0 41px 0;
+        padding: 0 0 38px 0;
       }
     }
 
     &.item-finance {
-      padding: 90px 0 0 39px;
+      padding: 90px 0 0 40px;
 
       img {
         margin: -43px 0 0 0;
-        padding: 0 0 35px 0;
+        padding: 0 0 34px 0;
       }
     }
 
     &.item-tax {
-      padding: 82px 0 0 53px;
+      padding: 81px 0 0 56px;
 
       img {
         margin: -35px 0 0 0;
@@ -87,5 +88,11 @@
 
   .swiper-wrapper {
     height: 385px;
+  }
+
+  @media (max-width: 768px) {
+    .swiper-container {
+      margin: 0 0 0 15px;
+    }
   }
 }

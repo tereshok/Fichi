@@ -1,5 +1,5 @@
 .amazing-services-section {
-  height: 945px;
+  min-height: 945px;
   margin: -130px 0 0 0;
   position: relative;
 
@@ -9,11 +9,26 @@
 
   &__main-img {
     margin: 0 0 0 -74px;
+
+    @media (max-width: 576px) {
+      margin: auto;
+    }
   }
 
   &__list {
     padding: 114px 0px 0px 0;
     margin: 0 0 0 -13px;
+
+    @media (max-width: 1200px) { 
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    @media (max-width: 768px) {
+      margin: 0 0 0 15px;
+    }
   }
 
   &__info-block {
@@ -31,22 +46,44 @@
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 576px) {
+      width: 65px;
+      height: 65px;
+      border-radius: 18px;
+    }
+
     &.chart {
       background-color: $mainColor_green;
       color: $mainColor_red;
       margin: -10px 34px 0 0;
+
+      @media (max-width: 576px) {
+        margin: -6px 7px 0 0;
+      }
     }
 
     &.dice {
       background-color: $mainColor_beige;
       color: #45046a;
       margin: -6px 34px 0 170px;
+
+      @media (max-width: 768px) {
+        margin: -6px 34px 0 0;
+      }
+
+      @media (max-width: 576px) {
+        margin: -6px 7px 0 0;
+      }
     }
 
     &.rocket {
       background-color: #efe3fe;
       color: $mainColor_purple;
       margin: -6px 34px 0 0;
+
+      @media (max-width: 576px) {
+        margin: -6px 7px 0 0;
+      }
     }
   }
   
@@ -65,6 +102,10 @@
     max-width: 470px;
     padding: 7px 0 0 72px;
 
+    @media (max-width: 1200px) {
+      max-width: 100%;
+    }
+
     h2 {
       padding: 10px 0 18px 0;
     }
@@ -73,7 +114,7 @@
       line-height: 22px;
       letter-spacing: -0.18px;
       padding: 0 0 0 2px;
-      width: 457px;
+      max-width: 457px;
     }
   }
 
