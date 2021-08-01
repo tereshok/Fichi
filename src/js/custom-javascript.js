@@ -28,5 +28,22 @@
     centeredSlides: true,
     loop: true,
     slideToClickedSlide: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 60,
+        centerInsufficientSlides: true,
+        //loop: true,
+      },
+
+      720: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+        setWrapperSize: true,
+        centeredSlides: true,
+        loop: true,
+        slideToClickedSlide: true,
+      },
+    }
   });
  

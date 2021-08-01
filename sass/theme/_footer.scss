@@ -8,7 +8,7 @@ footer {
   border-radius: 50px;
   
   &__content {
-    padding: 158px 0 0 0;
+    padding: 157px 0 0 0;
 
   } 
   
@@ -19,7 +19,7 @@ footer {
   }
 
   &__logo-block {
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 -28px;
 
     img {
       padding: 5px 0 0 0;
@@ -88,6 +88,39 @@ footer {
       display: block;
       padding: 11px 0 0 0;
       letter-spacing: -0.1px
+    }
+  }
+
+  &__social-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0 0px 38px;
+    font-size: 16px;
+
+    &_item {
+      padding: 0 0 0 32px;
+
+      a {
+        background-color: $mainColor_white;
+        padding: 16px;
+        border-radius: 32px;
+
+        &:hover {
+          background-color: $mainColor_grey;
+        }
+      }
+
+      .fa-facebook {
+        color: $mainColor_purple;
+      }
+
+      .fa-twitter {
+        color: #45046a;
+      }
+
+      .fa-instagram {
+        color: $mainColor_red;
+      }
     }
   }
 }

@@ -82,4 +82,26 @@
       display: none;
     }
   }
+
+  .container-large {
+    position: relative;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    position: absolute;
+    bottom: -255px;
+    left: 71px;
+
+    a {
+      color: $mainColor_grey;
+      padding: 0 0 15px 0;
+
+      &:hover {
+        color: $mainColor_purple;
+      }
+    }
+  }
 }

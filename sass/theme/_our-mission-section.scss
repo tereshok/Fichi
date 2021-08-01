@@ -10,7 +10,7 @@
     text-align: center;
 
     h2 {
-      padding: 11px 0 100px 0;
+      padding: 13px 0 64px 5px;
     }
   }
 
@@ -25,16 +25,45 @@
   }
 
   &__card {
-    max-width: 370px;
-    padding: 48px 22px;
-
+    height: 360px !important;
+     
     &_button {
       display: none;
+      height: 45px;
+      width: 140px;
+      border-radius: 20px;
+      background-color: $mainColor_green;
+
+      &:hover {
+        background-color: $mainColor_grey;
+      }
     }
 
-    img {
-      margin: -43px 0 0 0;
-      padding: 0 0 41px 0; 
+    &.item-accountancy {
+      padding: 84px 0 0 21px;
+
+      img {
+        margin: -41px 0 0 0;
+        padding: 0 0 41px 0;
+      }
+    }
+
+    &.item-finance {
+      padding: 90px 0 0 39px;
+
+      img {
+        margin: -43px 0 0 0;
+        padding: 0 0 35px 0;
+      }
+    }
+
+    &.item-tax {
+      padding: 82px 0 0 53px;
+
+      img {
+        margin: -35px 0 0 0;
+        padding: 0 0 35px 0;
+      }
     }
 
     &-title {
@@ -48,5 +77,15 @@
     .our-mission-section__card_button {
       display: block;
     }
+
+    &.our-mission-section__card {
+      background-color: $mainColor_white;
+      box-shadow: 11px 6px 20px 2px #e0e0e0;
+      border-radius: 20px;
+    }
+  }
+
+  .swiper-wrapper {
+    height: 385px;
   }
 }

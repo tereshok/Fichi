@@ -3,10 +3,10 @@
   padding: 48px 0 0 0;
 
   &__text-block {
-    padding: 0px 0 0 20px;
+    padding: 0px 0 0 21px;
 
     h2 {
-      padding: 10px 0 20px 0;
+      padding: 12px 0 20px 0;
     }
 
     p {
@@ -27,6 +27,8 @@
     font-weight: 700;
     color: $mainColor_grey;
     text-transform: uppercase;
+    padding: 16px 0 0;
+    line-height: 18px !important;
   }
 
   &__img {
@@ -53,7 +55,7 @@
 
     &_md-purple {
       z-index: 9;
-      bottom: 41px;
+      bottom: 53px;
       right: 190px;
     }
 
@@ -70,6 +72,22 @@
       @media (max-width: 992px) {
         z-index: -2;
         top: -350px;
+      }
+    }
+  }
+
+  &__brand-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_icon {
+      font-size: 30px;
+      margin: -3px -27px 0 0;
+      
+      a {
+        color: $mainColor_grey;
+        padding: 0 13px;
       }
     }
   }
